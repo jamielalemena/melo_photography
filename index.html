@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumelo Concepts - Photographer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">MELO PHOTOGRAPHY</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#prices" class="nav-link">Prices</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About / Hero Section -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <img src="images/photographer.jpg" alt="Tumelo the Photographer" class="about-image">
+                <div class="image-overlay"></div>
+            </div>
+            <div class="about-content">
+                <h1 class="photographer-name">Tumelo Moroalo</h1>
+                <p class="subtitle">YOUR PHOTOGRAPHER</p>
+                
+                <div class="about-text">
+                    <h3>About Me</h3>
+                    <p id="about-paragraph">
+                        Welcome to my corner of the internet—where logic meets curiosity and creativity. 
+                        I am a 24-year-old photographer and filmmaker based in Cape Town, working across South Africa. 
+                        I began my journey into photography during high school in 2018 and soon expanded into film, 
+                        earning my degree in Film and Television Production at City Varsity in Cape Town. 
+                        Through Melo Photography, I’ve been fortunate to turn passion into purpose —capturing stories 
+                        that span weddings, street life, commercial campaigns, sports action, and product showcases. 
+                        Every image I create is grounded in technical skill, artistic intent, and a desire to build 
+                        something truly unforgettable. <br><br>
+                        But what sets my work apart isn’t just what’s behind the lens—it’s the energy I bring to 
+                        every collaboration. I love working closely with clients, shaping ideas together, and 
+                        creating visual stories that reflect their individuality. The process is personal, the results 
+                        are powerful, and every project is a shared journey toward something meaningful. When you book 
+                        with me, you're not just hiring a photographer—you're investing in a creative partnership 
+                        built on trust, vision, and craft.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="graduation">Graduation</button>
+                <button class="tab-btn" data-category="outdoor">Outdoor</button>
+                <button class="tab-btn" data-category="studio">Studio</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Gallery items will be injected via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="prices" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Prices</h2>
+            
+            <div class="pricing-grid">
+                <!-- Hourly Rates -->
+                <div class="pricing-card">
+                    <div class="card-content">
+                        <h3>HOURLY SESSIONS</h3>
+                        <p class="price-note">Max 35 pictures per hour</p>
+                        <ul class="price-list">
+                            <li><span>1 Hour</span> <span>R 1250</span></li>
+                            <li><span>2 Hours</span> <span>R 2500</span></li>
+                            <li><span>3 Hours</span> <span>R 3750</span></li>
+                            <li><span>4 Hours</span> <span>R 5000</span></li>
+                            <li><span>5 Hours</span> <span>R 6250</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Book Session</a>
+                    </div>
+                </div>
+
+                <!-- Small Packages -->
+                <div class="pricing-card">
+                    <div class="card-content">
+                        <h3>SMALL PACKAGES</h3>
+                        <p class="price-note">Digital Images Only</p>
+                        <ul class="price-list">
+                            <li><span>10 Pictures</span> <span>R 500</span></li>
+                            <li><span>20 Pictures</span> <span>R 1000</span></li>
+                            <li><span>30 Pictures</span> <span>R 1500</span></li>
+                            <li><span>40 Pictures</span> <span>R 2000</span></li>
+                            <li><span>50 Pictures</span> <span>R 2500</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Book Package</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deposit-notice">
+                <p><strong>Note:</strong> A 50% deposit fee is required to secure the date and time of your booking.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Let's create something beautiful together.</p>
+
+            <div class="contact-showcase">
+                
+                <!-- Creative Business Card -->
+                <div class="business-card">
+                    <div class="card-header">
+                        <span class="card-logo">MELO PHOTOGRAPHY</span>
+                        <span class="card-subtitle">Tumelo Moroalo</span>
+                    </div>
+                    <div class="card-body">
+                        <a href="mailto:melophotography3@gmail.com" class="contact-row">
+                            <div class="icon-box email-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <span>melophotography3@gmail.com</span>
+                        </a>
+                        
+                        <a href="https://wa.me/27670447201" target="_blank" class="contact-row">
+                            <div class="icon-box whatsapp-icon-bg">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF" stroke="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                            </div>
+                            <span>+27 67 044 7201</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/melo_photography_evie" target="_blank" class="contact-row">
+                            <div class="icon-box instagram-icon-bg">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            </div>
+                            <span>@melo_photography_evie</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CSS Phone Mockup -->
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="chat-bubble left">
+                                Hey! I'm interested in a shoot. 📸
+                            </div>
+                            <div class="chat-bubble right">
+                                Hi there! I'd love to help capturing your story.
+                            </div>
+                            <div class="chat-bubble right">
+                                Tap the card to connect! 👇
+                            </div>
+                            <div class="phone-home-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Melo Photography. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
